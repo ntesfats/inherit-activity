@@ -2,6 +2,9 @@ public class Vehicle {
     private String color;
     private int year;
 
+    public Vehicle(){
+
+    }
     public Vehicle(String color){
         this.color = color;
         this.year = year;
@@ -25,6 +28,6 @@ public class Vehicle {
     }
 
     public String toString(){
-        return "Year: " + this.year + " Color: " + this.color;
+        return "Year: " + this.year + ", Color: " + this.color;
     }
 }

@@ -3,6 +3,9 @@ public class Car extends Vehicle{
     private String model;
     private int speed;
 
+    public Car() {
+        super();
+    }
     public Car(String color, String make, String model) {
         super(color);
         this.make = make;
@@ -58,7 +61,7 @@ public class Car extends Vehicle{
     }
 
     public String toString() {
-        return "Car model: " + this.model + " make: " + this.make + super.toString();
+        return "Car model: " + this.model + ", make: " + this.make + ", "+ super.toString();
     }
 
 }
